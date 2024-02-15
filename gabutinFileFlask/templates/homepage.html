@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+
+    <link rel="stylesheet" href="{{url_for('static',filename='homepagestyle.css')}}">
+
+    <script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
+</head>
+<body>
+
+    <div class="banner" id="home">
+
+        <div class="navbar">
+
+            <div class="logo">LIBRARY WEB</div>
+
+            <!--<ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#myinfo">MY INFO</a></li>
+                <li><a href="#myskills">MY SKILLS</a></li>
+                <li><a href="#myexperiences">MY EXPERIENCES</a></li>
+                <li><a href="#mygallery">MY GALLERY</a></li>
+            </ul>-->
+    </div>
+
+        <div class="content">
+            <h1 class="glow">LIBRARY WEB</h1>
+            <p>Find books of different genre here.</p>
+
+
+            <form action="/about" id="gotoabout">
+            <div class="buttons">
+                <button type="submit" form="gotoabout" value="Submit"><span></span>SEARCH</button>
+
+            </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
